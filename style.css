@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Arad";
+    src: url(./font/AradVF.woff2) format(woff2);
+}
+:root{
+    --main-font:"Arad";
+}
+body{
+    font-family:var(--main-font) ;
+    background-image: url(./photos/light-back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    direction: rtl;
+}
+.dropdown{
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+.menu-button1{
+    font-family: var(--main-font);
+    display: block;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
+.menu-button2{
+    font-family: var(--main-font);
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
+.menu1{
+    display: none;
+}
+.menu1.show{
+    display: contents;
+    margin: 2rem;
+}
+
+.menu2{
+    display: none;
+}
+.menu2.show{
+    
+    display: contents;
+}
+.title{
+    margin-right: 4rem;
+}
+.title2{
+    margin-right: 5rem;
+}
+.button-tab{
+    font-family: var(--main-font);
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.mohtava.active{
+display: block;
+}
+
+.mohtava{
+    display: none;
+    /*border: 1px solid black;
+    padding: 10px;*/
+}
