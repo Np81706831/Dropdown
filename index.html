@@ -9,8 +9,8 @@
 <body>
     <header></header>
     <main>
-        <h1>DropDown :</h1>
-        <section class="dropdown" id="dropdown">
+        <h1 class="first-title">DropDown :</h1>
+        <section class="dropdown1" id="dropdown">
             <button class="menu-button1" id="menu-button1">قطعات کامپیوتر</button>
             <ul class="menu1" id="menu1">
                 <li>مادر بورد</li>
@@ -20,6 +20,9 @@
                 <li>حافظه جانبی</li>
                 <li>کیبورد</li>
             </ul>
+        </section>
+
+        <section class="dropdown2" id="dropdown2">
             <button class="menu-button2" id="menu-button2">قطعات شبکه</button>
             <ul class="menu2" id="menu2">
                 <li>مودم</li>
@@ -30,17 +33,21 @@
                 <li>سرور</li>
             </ul>
         </section>
-
-        <h2>Tab & Modal</h2>
+        <h2 class="second-title">Tab & Modal</h2>
         <h3 class="title">قطعات کامپیوتری رایج:</h3>
-        <section>
+        <section class="tab-section">
 
             <button class="button-tab" id="button1">پردازنده</button>
             <article class="mohtava active" id="mohtava1">
                 <span class="caption">
                     پردازنده مرکزی یا به اختصار CPU، مهمترین بخش از یک سیستم کامپیوتر تلقی می‌شود. ساخت یک CPU قدرتمند برای لپ تاپ توسط کمپانی‌های مطرح دنیا به یک امر چالش برانگیز تبدیل شده است؛ به این دلیل که لپ تاپ‌ها مثل کامپیوترهای خانگی دارای سیستم خنک‌کننده‌ی معرکه نیستند.
                 </span>
-                <!--<span>در حقیقت برای هر کاری باید CPU به منظور پردازش وارد عمل شود، حتی یک کلیک ساده‌ی ماوس. روان اجرا شدن ویدیوها به صورت آنلاین و آفلاین</span>-->
+
+                <span class="read-more" id="readmore1">بیشتر ....</span>
+                <article class="modal" id="modal1">
+                    <span class="caption2">در حقیقت برای هر کاری باید CPU به منظور پردازش وارد عمل شود، حتی یک کلیک ساده‌ی ماوس. روان اجرا شدن ویدیوها به صورت آنلاین و آفلاین</span>
+                    <button class="cancel" id="cancel1">بستن</button>
+                </article>
             </article>
 
             <button class="button-tab" id="button2">کارت گرافیک</button>
@@ -48,39 +55,30 @@
                 <span class="caption">
                     پردازنده مرکزی یا به اختصار CPU، مهمترین بخش از یک سیستم کامپیوتر تلقی می‌شود. ساخت یک CPU قدرتمند برای لپ تاپ توسط کمپانی‌های مطرح دنیا به یک امر چالش برانگیز تبدیل شده است؛ به این دلیل که لپ تاپ‌ها مثل کامپیوترهای خانگی دارای سیستم خنک‌کننده‌ی معرکه نیستند.
                 </span>
-                <!--<span>هر چه کارت گرافیک بهتری داشته باشید تصاویر باکیفیت‌تری خواهید داشت. این مساله برای گیمرها و کسانی که ویدئو ادیت می‌کنند بسیار مهم است.</span>-->
+
+                <span class="read-more" id="readmore2">بیشتر ....</span>
+                <article class="modal" id="modal2">
+                    <span class="caption2">هر چه کارت گرافیک بهتری داشته باشید تصاویر باکیفیت‌تری خواهید داشت. این مساله برای گیمرها و کسانی که ویدئو ادیت می‌کنند بسیار مهم است.</span>
+                    <button class="cancel" id="cancel2">بستن</button>
+                </article>
             </article>
 
             <button class="button-tab" id="button3">کارت حافظه</button>
-            <article class="mohtava" id="mohtava">  
+            <article class="mohtava" id="mohtava3">  
                 <span class="caption">دستگاه‌های دیجیتالی امروزی برای ذخیره‌ی اطلاعات از قطعه‌ای به نام کارت حافظه (Memory Card) استفاده می‌کنند. این کارت‌ها در موبایل‌، تبلت، لپ‌تاپ، دوربین عکاسی و پخش کننده‌های موسیقی استفاده می‌شوند</span>
-                <!--  <span>برای هر شخص با هر سطحی از نیاز، کارت حافظه‌ی خاصی وجود دارد و لزوما نمی‌توان یک کارت را به چند نفر پیشنهاد داد. مثلا برای کسی که می‌خواهد با دوربین عکاسی به صورت پیاپی عکس بگیرد یا شخص دیگری که دوست دارد با رزولوشن 4K فیلمبرداری کند، به حافظه‌های سریع‌ نیاز است؛ </span>  -->
+
+                <span class="read-more" id="readmore3">بیشتر ....</span>
+                <article class="modal" id="modal3">
+                    <span class="caption2">رایج‌ترین نوع کارت‌ حافظه، مدل SD است که معمولا در دوربین‌های دیجیتال از آن استفاده می‌شود. ممکن است با لوگوهای دیگری از قبیل SDHC یا SDXC هم مواجه شوید که در شکل و ظاهر با SD معمولی فرقی ندارند</span>
+                    <button class="cancel" id="cancel3">بستن</button>
+                </article>
             </article>
         </section>
 
-        <!--<hr/>
-
-        <h3 class="title2">قطعات شبکه رایج:</h3>
-        <section>
-            <button class="button-tab">سرور</button>
-            <article class="mohtava active">
-                <span class="caption">سرور یا Server یک مفهوم در دنیای کامپیوتر است که می‌تواند تعاریف مختلفی داشته باشد. اما در یک تعریف جامع منظور از سرور، سیستم هایی است که وظیفه سرویس دهی و ارائه خدمات به سایر سیستم‌های دیگر را بر عهده دارند.</span>
-                ++++    <span>سیستم هایی که از سرور خدمات دریافت می‌کنند، تحت عنوان خدمات گيرنده يا کلاینت (Client) شناخته می‌شوند</span>++++
-            </article>
-
-            <button class="button-tab">سوییچ </button>
-            <article class="mohtava">
-                <span class="caption"> سوییچ برای اتصال Node ها در شبکه به هم، از دستگاه‌هایی چون هاب و سوییچ و روتر و … استفاده می‌شود. این اتصال در واقع امکان جا به جایی اطلاعات بین دستگاه‌ها را در شبکه فراهم می‌کند.</span>
-               ++++ <span> سوییچ برای اتصال Node ها در شبکه به هم، از دستگاه‌هایی چون هاب و سوییچ و روتر و … استفاده می‌شود. این اتصال در واقع امکان جا به جایی اطلاعات بین دستگاه‌ها را در شبکه فراهم می‌کند.</span>  ++++
-            </article>
-
-            <button class="button-tab">رک </button>
-            <article class="mohtava">
-                <span class="caption">رک در IT و به طور کلی در شبکه، سخت افزاری است که ماژول های سخت افزاری مانند سرور، استوریج، سوییچ و روتر و یو پی اس و دیگر تجهیزات شبکه را در خود جای می‌دهد. بدین ترتیب در فضایی مناسب و امن، طبقات منسجمی برای نگهداری تجهیزات شبکه را برایتان فراهم می‌کند.</span>
-                ++++ <span>Rack سرور و شبکه باعث افزایش کارایی می‌شود. نگهداری از سرور و تجهیزات شبکه راحت تر است، و از همه مهمتر اینکه امنیت افزایش می‌یابد.</span>+++
-            </article>
-        </section>-->
-
+        <!--<div class="test">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis esse tempora voluptates, soluta eligendi unde eum rerum maxime et ipsa numquam nisi quidem quos vitae odit, ipsum possimus. Aperiam, laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus natus totam ut ea incidunt, commodi odit sint obcaecati dolorum deserunt! Deleniti maiores omnis aliquid at harum blanditiis animi recusandae!</p>
+        </div>
+        <div><button class="cancel" id="cancel1">X</button></div>-->
     </main>
     <script src="./script.js"></script>
 </body>
