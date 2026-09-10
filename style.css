@@ -654,6 +654,185 @@ body{
     height: 30%;
     this is for little button
 }*/
+}
+/* ....................this is for large desktop mode...................*/
+@media (min-width:1280px) 
+{
+    @font-face {
+    font-family: "Arad";
+    src: url(./font/AradVF.woff2) format(woff2);
+}
+:root{
+    --main-font:"Arad";
+}
+body{
+    font-family:var(--main-font) ;
+    background-image: url(./photos/light-back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    direction: rtl;
+}
+.first-title{
+    direction: ltr;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+    margin-left: 1rem;
+}
+.second-title{
+    direction: ltr;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.dropdown1{
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+.menu-button1{
+    font-family: var(--main-font);
+    font-size: 20px;
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-right: 25rem;
+    border-radius: 5px;
+}
+.dropdown2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+.menu-button2{
+    font-family: var(--main-font);
+    font-size: 20px;
+    display: block;
+    transform: translateY(-115px);
+    margin-right: 19.5rem;
+    /*margin-top: 2rem;
+    margin-bottom: 0.5rem;*/
+    border-radius: 5px;
+}
+.menu1{
+    display: none;
+}
+.menu1.show{
+    font-size: 19px;
+    position: absolute;
+    top: 9.5rem;
+    left: 47rem;
+    display: inline;
+    margin: 0;
+}
+
+.menu2{
+    display: none;
+}
+.menu2.show{
+    font-size: 19px;
+    position: absolute;
+    top: 9.5rem;
+    left: 27.5rem;
+    display: inline;
+    margin: 0;
+}
+.title{
+    font-size: 25px;
+    margin-right: 32rem;
+}
+.title2{
+    margin-right: 5rem;
+}
+.tab-section{
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+.button-tab{
+    font-family: var(--main-font);
+    font-size: 20px;
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.mohtava{
+    display: none;
+    /*border: 1px solid black;
+    padding: 10px;*/
+}
+
+.mohtava.active{
+    font-size: 20px;
+    display: block;
+    margin: 0.5rem;
+    text-align: justify;
+}
+
+.caption2{
+  display: block;
+  margin-top: 1.1rem;
+  color:blue
+}
+.read-more{
+    color: rgb(107, 193, 85);
+}
+.modal{
+    display: none;
+    position: fixed;
+    inset: 0;
+}
+.modal.show{
+    display: flex;
+    background-color: rgb(219, 245, 245);
+    border-radius: 8px;
+    box-shadow: 5px 5px 30px gray;
+    width: 190px;
+    height: 360px;
+    text-align: right;
+    margin-top: 12rem;
+    margin-right: 32rem;
+    padding: 15px;
+    padding-top: 3px;
+    padding-right: 32px;
+
+}
+.cancel{
+    display: none;
+}
+.cancel.active{
+    font-size: 20px;
+    display: block;
+    background-color: rgb(246, 163, 168);
+    border-radius: 5px;
+    font-family: var(--main-font);
+    transform: translateY(290px);
+    position: absolute;
+    left: 2rem;
+    width: 70%;
+    height: 20%;
+}
+/*.cancel{
+    background-color: green;
+    border-radius: 5px;
+    font-family: var(--main-font);
+    width: 10%;
+
+    this is for little button
+}*/
+/*.cancel{
+    background-color: rgb(192, 179, 224);
+    border-radius: 5px;
+    font-family: var(--main-font);
+    width: 40%;
+    height: 30%;
+    this is for little button
+}*/
 
     
 }
