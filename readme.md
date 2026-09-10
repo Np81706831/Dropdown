@@ -1,6 +1,5 @@
 # Interactive Computer Components
-
-A simple interactive web project built to practice JavaScript DOM manipulation, Tabs, Dropdown menus, Modal windows, and Event Handling.
+A simple interactive web project built to practice JavaScript Tabs, Dropdown menus, Modal windows, and Event Handling.
 
 ## Features
 
@@ -25,7 +24,6 @@ A simple interactive web project built to practice JavaScript DOM manipulation, 
 * Tabs functionality
 * Dropdown functionality
 * Modal functionality
-* Basic DOM manipulation
 * Responsive Design
 
 ## AI Transparency
@@ -36,6 +34,14 @@ I used AI as a learning assistant during this project to understand concepts, re
 
 https://np81706831.github.io/Dropdown/
 
-## Preview
+## Preview for mobile mode:
 
-![Project Preview](./preview.png)
+![Project Preview](./photos/small%20mobile%20mode.png)
+
+## Preview for tablet mode:
+
+![Project Preview](./photos/tablet%20mode.png)
+
+## Preview for desktop mode:
+
+![Project Preview](./photos/desktop%20mode.png)
